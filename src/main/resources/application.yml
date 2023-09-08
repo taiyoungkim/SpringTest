@@ -1,0 +1,12 @@
+# server 설정
+server:
+  port: 8080
+---
+# datasource 설정
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/sample?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      username: sample
+      password: password1!
