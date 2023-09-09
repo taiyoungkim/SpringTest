@@ -31,6 +31,9 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.2")
+
+	// https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1
+	implementation("org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16")
 }
 
 tasks.withType<KotlinCompile> {
